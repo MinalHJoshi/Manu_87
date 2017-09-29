@@ -69,6 +69,7 @@ while($row = mysql_fetch_array($res)){
                     <th>Hire Date</th>
                     <th>Salary</th>
                     <th>Picture</th>
+			<th>edit</td>
                 </tr>
                 <?php echo $string;?>
             </table>
